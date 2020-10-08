@@ -12,15 +12,15 @@
 }
 
 /*class for changing color from #000000 to FFEBD7 gradually*/
-.colorTransit {
-  animation-name: colorTransit;
+.colorTransit01 {
+  animation-name: colorTransitBLK-FFEBD7;
   animation-duration: 3s;
   animation-timing-function: cubic-bezier(0.50, 0.10, 0.50, 0.90);
   animation-delay: 0s;
   animation-iteration-count: 1;
 }
 
-@keyframes colorTransit {
+@keyframes colorTransitBLK-FFEBD7 {
   from{
     color: #000000;
   }
