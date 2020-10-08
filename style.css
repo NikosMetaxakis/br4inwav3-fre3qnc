@@ -1,0 +1,13 @@
+.enlarge {
+  font-size: 50px;
+  transition-property: font-size;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+}
+
+.enlarge:hover {
+  font-size: 60px;
+}
+
+#
