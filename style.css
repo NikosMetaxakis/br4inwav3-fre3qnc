@@ -1,3 +1,4 @@
+/*class for enlarging font size on mouseover*/
 .enlarge {
   font-size: 50px;
   transition-property: font-size;
@@ -10,4 +11,20 @@
   font-size: 60px;
 }
 
-#
+/*class for changing color from #000000 to FFEBD7 gradually*/
+.colorTransit {
+  animation-name: colorTransit;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.50, 0.10, 0.50, 0.90);
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
+@keyframes colorTransit {
+  from{
+    color: #000000;
+  }
+  to {
+    color: #FFEBD7
+  }
+}
